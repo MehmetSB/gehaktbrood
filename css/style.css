@@ -1,11 +1,27 @@
 body{
   font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 26px;
 }
 
+nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  margin-left: 30%;
+}
+
+nav a{
+  display: inline;
+  font-size: 20px;
+  margin-right: 50px;
+}
 main{
   margin:0 auto;
   width: 58%;
 }
+
 h1{
   font-size: 36px;
   line-height: 36px;
@@ -14,32 +30,31 @@ h1{
 h2{
   font-size: 24px;
   line-height: 32px;
-}
-
-h3{
-  font-size: 32px;
-  line-height: 32px;
+  margin-top: 40px;
 }
 
 li{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 p{
   width: 80%;
   margin-bottom: 10px;
-  font-size: 20px;
-  line-height: 26px;
 }
 
-#groen{
+#tip{
   background-color: #def6ed;
+  border-radius: 4px;
   height: 70px;
+  width: 85%;
+  text-align: center;
+}
+
+#tip p{
   width: 100%;
 }
 
-#midden{
+ol > li{
+  margin-bottom: 20px;
   font-size: 20px;
-  margin-left: 25px;
-  width: 100%;
 }
